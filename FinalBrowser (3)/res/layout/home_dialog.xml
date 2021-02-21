@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+<!--<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   	android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+   	android:layout_marginRight="10dp"
+    android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="80dp"
+          android:layout_height="match_parent"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="6dp"
+          android:text="홈화면 이름" />
+
+    <EditText
+        android:id="@+id/edtname_home"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:singleLine="true" >
+    </EditText>
+</LinearLayout>-->
+ 
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="10dp" 
+   	android:layout_marginLeft="10dp"
+   	android:layout_marginRight="10dp"
+    android:orientation="horizontal">
+	
+     <TextView
+         android:layout_width="80dp"
+         android:layout_gravity="center_vertical"
+         android:layout_marginTop="6dp"
+         android:layout_marginRight="10dp"
+         android:layout_height="match_parent"
+         android:text="홈페이지 URL" />
+
+    <EditText
+        android:id="@+id/edturl_home"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:singleLine="true" >
+    </EditText>
+</LinearLayout>
+
+</LinearLayout>

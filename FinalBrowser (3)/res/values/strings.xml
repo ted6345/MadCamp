@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sonic Browser</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="recom_array">
+        <item>www.google.com</item>
+        <item>www.naver.com</item>
+        <item>www.daum.net</item>
+        <item>www.facebook.com</item>
+        <item>portal.kaist.ac.kr</item>
+        <item>gmail.com</item>
+        <item>dcinside.com</item>
+        <item>bamboofo.rest</item>
+    </string-array>
+    
+    <string-array name="popupmenu_srtirg_array">
+        <item>즐겨찾기</item>
+        <item>즐겨찾기 추가</item>
+        <item>야간 모드</item>
+        <item>공유</item>
+        <item>다운로드</item>
+        <item>홈화면 등록</item>
+        <item>PC버전 보기</item>
+        <item>방문 기록</item>
+        <item>나가기</item>
+        <item>환경설정</item>
+        <item>시크릿 모드</item>
+        <item>업데이트</item>
+        <item>리포트</item>
+        <item>검색</item>
+        <item>스크린컷</item>
+        <item>HTML 수정</item>
+        <item>JavaScript 작성</item>
+        <item>페이지 저장하기</item>
+        <item>페이지 불러오기</item>
+    </string-array>
+    <integer-array name="popupmenu_icon_array">
+        <item>@drawable/menu_icon_bookmark</item>
+        <item>@drawable/menu_icon_add_bookmark</item>
+        <item>@drawable/menu_icon_nightmode_normal</item>
+        <item>@drawable/menu_icon_share</item>
+        <item>@drawable/menu_icon_download</item>
+        <item>@drawable/menu_icon_home</item>
+        <item>@drawable/menu_icon_pc</item>
+        <item>@drawable/menu_icon_history</item>
+        <item>@drawable/menu_icon_exit</item>
+        <item>@drawable/menu_icon_settings</item>
+        <item>@drawable/menu_icon_privacy_normal</item>
+        <item>@drawable/menu_icon_check_update</item>
+        <item>@drawable/menu_icon_report</item>
+        <item>@drawable/menu_icon_page_search</item>
+        <item>@drawable/menu_icon_screencut</item>
+        <item>@drawable/menu_icon_html</item>
+        <item>@drawable/menu_icon_js</item>
+        <item>@drawable/menu_icon_save</item>
+        <item>@drawable/menu_icon_load</item>
+	</integer-array>
+
+</resources>

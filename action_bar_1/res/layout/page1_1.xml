@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page1_1"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:weightSum="1"
+     >
+
+	<ListView
+        android:id="@+id/list1_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.50"
+        android:choiceMode="singleChoice" >
+    </ListView>
+    
+    <ListView
+        android:id="@+id/list1_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.50"
+        android:choiceMode="singleChoice" >
+    </ListView>
+    
+  </LinearLayout>

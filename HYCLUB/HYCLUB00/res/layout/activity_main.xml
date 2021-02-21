@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/title_bar"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/NameData"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="HYCLUB"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#EEEEEE"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/Dev"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/info_selector" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp" >
+
+            <Button
+                android:id="@+id/HCbtn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/tab_selector"
+                android:text="HYCLUB"
+                android:textColor="@drawable/tab_text_selector"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/MCbtn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/tab_selector"
+                android:text="MYCLUB"
+                android:textColor="@drawable/tab_text_selector"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        
+        <android.support.v4.view.ViewPager
+            android:id="@+id/Pager"
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+        	android:requiresFadingEdge="horizontal"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

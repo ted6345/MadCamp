@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/MyList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/Intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="&apos;MY CLUB&apos;을 등록하시려면\n옆 페이지의 리스트에서\n등록을 원하는 동아리명을\n꾸욱! 눌러주세요."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/gray"
+        android:textSize="18sp" />
+
+</LinearLayout>

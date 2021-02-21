@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--     <item
+        android:showAsAction="ifRoom|withText"
+        android:id="@+id/item1"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add"
+    />
+    <item
+        android:id="@+id/item2"
+        android:showAsAction="always"
+        android:title="Action item with icon"
+        android:icon="@android:drawable/ic_menu_search"
+    /> -->
+    <item
+        android:title="HTML 보기"
+        android:id="@+id/it_html"
+    />
+    <item
+        android:title="즐겨찾기"
+        android:id="@+id/it_bookmark"
+    />
+    <item
+        android:title="Hompage 설정"
+        android:id="@+id/it_homepage"
+    />
+
+
+</menu>

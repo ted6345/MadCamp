@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+      <LinearLayout
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#24b6dd"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="11dp"
+                android:text="환경설정"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Title"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="16dp"
+            android:text="미리보기"
+            android:textColor="#24b6dd"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextPreview"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="21dp"
+            android:background="#15000000"
+            android:text="보이기 편한 글자크기에 맞춰 글자크기를 설정해주세요" />
+
+        <TextView
+            android:id="@+id/TextView100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextPreview"
+            android:layout_below="@+id/TextPreview"
+            android:text="글자크기 조정"
+            android:textColor="#24b6dd"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/TextPreview"
+            android:layout_below="@+id/TextView100"
+            android:layout_toRightOf="@+id/TextSize" />
+
+        <TextView
+            android:id="@+id/TextSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView100"
+            android:layout_alignTop="@+id/SeekBar"
+            android:layout_marginTop="5dp"
+            android:text="100%"
+            android:textColor="#50000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextSize"
+            android:layout_alignRight="@+id/SeekBar"
+            android:layout_below="@+id/SeekBar"
+            android:layout_marginTop="16dp"
+            android:text="전체화면 표시"
+            android:textColor="#24b6dd"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/check_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:background="#10000000" >
+
+            <CheckBox
+                android:id="@+id/FullScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:text="Check" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/developer_information"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/developer_name"
+            android:layout_alignRight="@+id/clear_history"
+            android:layout_below="@+id/developer_name"
+            android:layout_marginTop="10dp"
+            android:background="#10000000"
+            android:text="김태훈 ted6345@naver.com\n김동화 shanytt@gmail.com" />
+
+        <Button
+            android:id="@+id/clear_cache"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/check_box"
+            android:layout_alignRight="@+id/check_box"
+            android:layout_below="@+id/check_box"
+            android:layout_marginTop="20dp"
+            android:background="#10000000"
+            android:shadowColor="@android:color/background_dark"
+            android:text="캐시 초기화"
+            android:textColor="#24b6dd"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/clear_history"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@+id/clear_cache"
+            android:layout_alignRight="@+id/clear_cache"
+            android:layout_below="@+id/clear_cache"
+            android:background="#10000000"
+            android:shadowColor="@android:color/background_dark"
+            android:text="히스토리 초기화"
+            android:textColor="#24b6dd"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/developer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@+id/clear_history"
+            android:layout_below="@+id/clear_history"
+            android:text="개발자 정보"
+            android:textColor="#24b6dd"
+            android:textSize="18sp" />
+
+</RelativeLayout>

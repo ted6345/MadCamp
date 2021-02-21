@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:maxHeight="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/button"
+        android:singleLine="true"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/html_button"
+        android:layout_alignTop="@+id/url"
+        android:text="Click" />
+    <Button
+        android:id="@+id/html_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/url"
+        android:text="Html" />
+    	
+	<WebView
+	    android:id="@+id/webview"
+	    android:layout_marginTop="50dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"	    
+	    />
+
+</RelativeLayout>

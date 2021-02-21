@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/title_bar"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Developers"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#EEEEEE"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="이 어플리케이션은..."
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/gray" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="테크노 경영학 강의 &apos;5만원 프로젝트&apos;의 일환으로, 컴퓨터 공학부 학생들이 팀을 이뤄 만든"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="한양대학교 동아리 안내 앱"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="입니다."
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="팀원 소개"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/gray" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="컴퓨터전공"
+                        android:textColor="@color/text" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="강민지, 김승환, 김태훈, 안효상, 이지영, 정윤희, 채승목"
+                        android:textColor="@color/text" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="문의 사항"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/gray" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="동아리 추가 관련 문의 - 안효상(DB담당)"
+                    android:textColor="@color/text" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" >
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="ahs1992@nate.com"
+                        android:textColor="@color/text" />
+
+                    <Button
+                        android:id="@+id/hsMail"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/mail_selector" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="앱 관련 문의 - 이지영(개발자)"
+                    android:textColor="@color/text" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right" >
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="violentjy@hanyang.ac.kr"
+                        android:textColor="@color/text" />
+
+                    <Button
+                        android:id="@+id/jyMail"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/mail_selector" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="저희 어플리케이션은 DB가 서버에 저장되어 있는 것이 아니라 앱 자체에 내장되어 있습니다.\n따라서 동아리 추가 요청을 하셔도 어플리케이션 업데이트를 하지 않으신다면 정보 갱신이 되지 않을 수 있습니다.\n이 점 유념해주시기 바랍니다."
+                    android:textColor="@color/text" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
